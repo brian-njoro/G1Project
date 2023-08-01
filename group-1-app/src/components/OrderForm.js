@@ -75,6 +75,9 @@ export default function OrderForm() {
             />
            </label>
 
+           {/*submit form button*/}
+           <button type = "submit">Submit your order here...</button>
+
         </form>
     </div>
   )
