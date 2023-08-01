@@ -42,6 +42,13 @@ export default function OrderForm() {
            {/*number of plates input*/}
            <label>
             Number of Plates
+            <input
+            type = "number"
+            value = "numberOfPlates"
+            onChange={(e) => setNumberOfPlates(e.target.value)}
+            min={1}
+          required
+            />
            </label>
 
         </form>
