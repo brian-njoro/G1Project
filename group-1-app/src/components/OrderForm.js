@@ -63,6 +63,18 @@ export default function OrderForm() {
             />
            </label>
 
+           <br/>
+
+           {/* Input for Drink */}
+           <label>
+            Drink:
+            <input
+            type = 'text'
+            value = {drink}
+            onChange={(e) => setDrink(e.target.value)}
+            />
+           </label>
+
         </form>
     </div>
   )
