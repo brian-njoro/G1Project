@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 export default function OrderForm() {
-    const [foodType, setFoodType] = useState('')
+  const [foodType, setFoodType] = useState('')
   const [numberOfPlates, setNumberOfPlates] = useState(1)
   const [sideDish, setSideDish] = useState('')
   const [drink, setDrink] = useState('')
@@ -25,7 +25,26 @@ export default function OrderForm() {
 
   return(
     <div>
-        
+        <form onSubmit = {handleSubmit} >
+            {/*foood type input*/}
+           <label>
+            Food Type:
+            <input 
+            type="text"
+            value = "foodType"
+            onChange = {(e) => setFoodType(e.target.value)}
+            required
+            />
+           </label>
+
+           <br/>
+
+           {/*number of plates input*/}
+           <label>
+            Number of Plates
+           </label>
+
+        </form>
     </div>
   )
 }
