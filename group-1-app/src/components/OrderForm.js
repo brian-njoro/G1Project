@@ -46,8 +46,20 @@ export default function OrderForm() {
             type = "number"
             value = "numberOfPlates"
             onChange={(e) => setNumberOfPlates(e.target.value)}
-            min={1}
-          required
+            min={1} {/*set minimum number allowed for input as 1*/}
+            required
+            />
+           </label>
+
+           <br/>
+
+           {/*input for side dish*/}
+           <label>
+            Side Dish:
+            <input
+            type = "text"
+            value = {sideDish}
+            onChange={(e) => setSideDish(e.target.value)}
             />
            </label>
 
