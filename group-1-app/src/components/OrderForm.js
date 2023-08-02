@@ -24,7 +24,7 @@ export default function OrderForm() {
   }
 
   return(
-    <div>
+    <div className='foodOrders'>
         <form onSubmit = {handleSubmit} >
             {/*foood type input*/}
            <label>
@@ -46,7 +46,6 @@ export default function OrderForm() {
             type = "number"
             value = "numberOfPlates"
             onChange={(e) => setNumberOfPlates(e.target.value)}
-           min={1} //  set inimum number for input as 1
             required
             />
            </label>
