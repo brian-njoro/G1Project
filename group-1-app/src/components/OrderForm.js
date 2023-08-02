@@ -46,7 +46,7 @@ export default function OrderForm() {
             type = "number"
             value = "numberOfPlates"
             onChange={(e) => setNumberOfPlates(e.target.value)}
-            min={1} {/*set minimum number allowed for input as 1*/}
+           min={1} //  set inimum number for input as 1
             required
             />
            </label>
