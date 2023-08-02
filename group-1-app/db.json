@@ -1,0 +1,203 @@
+{
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "Delicious Delights",
+        "contact": "info@deliciousdelights.com"
+      },
+      {
+        "id": 2,
+        "name": "Tasty Treats",
+        "contact": "info@tastytreats.com"
+      },
+      {
+        "id": 3,
+        "name": "Crispy Corner",
+        "contact": "info@crispycorner.com"
+      },
+      {
+        "id": 4,
+        "name": "Sizzling Steaks",
+        "contact": "info@sizzlingsteaks.com"
+      },
+      {
+        "id": 5,
+        "name": "Pasta Paradise",
+        "contact": "info@pastaparadise.com"
+      },
+      {
+        "id": 6,
+        "name": "Burger Bites",
+        "contact": "info@burgerbites.com"
+      },
+      {
+        "id": 7,
+        "name": "Sushi Senses",
+        "contact": "info@sushisenses.com"
+      },
+      {
+        "id": 8,
+        "name": "Vegetarian Vibes",
+        "contact": "info@vegetarianvibes.com"
+      },
+      {
+        "id": 9,
+        "name": "Spicy Thai",
+        "contact": "info@spicythai.com"
+      },
+      {
+        "id": 10,
+        "name": "Mediterranean Delicacies",
+        "contact": "info@mediterraneandelicacies.com"
+      },
+      {
+        "id": 11,
+        "name": "Dessert Dreamland",
+        "contact": "info@dessertdreamland.com"
+      },
+      {
+        "id": 12,
+        "name": "Coffee Cavern",
+        "contact": "info@coffeecavern.com"
+      },
+      {
+        "id": 13,
+        "name": "Seafood Sensation",
+        "contact": "info@seafoodsensation.com"
+      },
+      {
+        "id": 14,
+        "name": "Indian Spice",
+        "contact": "info@indianspice.com"
+      },
+      {
+        "id": 15,
+        "name": "Mexican Fiesta",
+        "contact": "info@mexicanfiesta.com"
+      }
+    ],
+    "food": [
+      {
+        "id": 1,
+        "food": "Ugali Matumbo",
+        "price": 456,
+        "restaurant_id": 1
+      },
+      {
+        "id": 2,
+        "food": "Rice Beef",
+        "price": 500,
+        "restaurant_id": 3
+      },
+      {
+        "id": 3,
+        "food": "Margherita Pizza",
+        "price": 800,
+        "restaurant_id": 2
+      },
+      {
+        "id": 4,
+        "food": "Classic Burger",
+        "price": 350,
+        "restaurant_id": 6
+      },
+      {
+        "id": 5,
+        "food": "Sushi Platter",
+        "price": 1200,
+        "restaurant_id": 7
+      },
+      {
+        "id": 6,
+        "food": "Chicken Shawarma",
+        "price": 550,
+        "restaurant_id": 10
+      },
+      {
+        "id": 7,
+        "food": "Veggie Spring Rolls",
+        "price": 280,
+        "restaurant_id": 8
+      },
+      {
+        "id": 8,
+        "food": "Pepperoni Pizza",
+        "price": 850,
+        "restaurant_id": 2
+      },
+      {
+        "id": 9,
+        "food": "Pasta Carbonara",
+        "price": 700,
+        "restaurant_id": 5
+      },
+      {
+        "id": 10,
+        "food": "Mango Tango Smoothie",
+        "price": 350,
+        "restaurant_id": 4
+      },
+      {
+        "id": 11,
+        "food": "Beef Tacos",
+        "price": 400,
+        "restaurant_id": 15
+      },
+      {
+        "id": 12,
+        "food": "Paneer Tikka Masala",
+        "price": 450,
+        "restaurant_id": 14
+      },
+      {
+        "id": 13,
+        "food": "Seafood Paella",
+        "price": 1100,
+        "restaurant_id": 13
+      },
+      {
+        "id": 14,
+        "food": "Sizzling Fajitas",
+        "price": 600,
+        "restaurant_id": 15
+      },
+      {
+        "id": 15,
+        "food": "Chocolate Lava Cake",
+        "price": 300,
+        "restaurant_id": 11
+      },
+      {
+        "id": 16,
+        "food": "Mushroom Risotto",
+        "price": 480,
+        "restaurant_id": 10
+      },
+      {
+        "id": 17,
+        "food": "Falafel Wrap",
+        "price": 320,
+        "restaurant_id": 9
+      },
+      {
+        "id": 18,
+        "food": "Szechuan Noodles",
+        "price": 420,
+        "restaurant_id": 6
+      },
+      {
+        "id": 19,
+        "food": "Choco Banana Pancakes",
+        "price": 380,
+        "restaurant_id": 12
+      },
+      {
+        "id": 20,
+        "food": "Lemon Herb Grilled Fish",
+        "price": 590,
+        "restaurant_id": 13
+      }
+    ]
+      
+  }
+  
