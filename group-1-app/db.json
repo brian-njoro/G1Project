@@ -196,8 +196,189 @@
         "food": "Lemon Herb Grilled Fish",
         "price": 590,
         "restaurant_id": 13
+      },
+      {
+        "id": 21,
+        "food": "Chicken Tikka Masala",
+        "price": 800,
+        "restaurant_id": 3
+      },
+      {
+        "id": 22,
+        "food": "Margherita Pizza",
+        "price": 600,
+        "restaurant_id": 6
+      },
+      {
+        "id": 23,
+        "food": "Sushi Roll Combo",
+        "price": 1000,
+        "restaurant_id": 10
+      },
+      {
+        "id": 24,
+        "food": "Shrimp Pad Thai",
+        "price": 750,
+        "restaurant_id": 7
+      },
+      {
+        "id": 25,
+        "food": "BBQ Ribs",
+        "price": 900,
+        "restaurant_id": 4
+      },
+      {
+        "id": 26,
+        "food": "Falafel Wrap",
+        "price": 550,
+        "restaurant_id": 1
+      },
+      {
+        "id": 27,
+        "food": "Beef Tacos",
+        "price": 650,
+        "restaurant_id": 8
+      },
+      {
+        "id": 28,
+        "food": "Mushroom Risotto",
+        "price": 700,
+        "restaurant_id": 5
+      },
+      {
+        "id": 29,
+        "food": "Veggie Burger",
+        "price": 550,
+        "restaurant_id": 2
+      },
+      {
+        "id": 30,
+        "food": "Fried Chicken Sandwich",
+        "price": 600,
+        "restaurant_id": 9
+      },
+      {
+        "id": 31,
+        "food": "Spaghetti Carbonara",
+        "price": 650,
+        "restaurant_id": 7
+      },
+      {
+        "id": 32,
+        "food": "Samosa",
+        "price": 300,
+        "restaurant_id": 1
+      },
+      {
+        "id": 33,
+        "food": "Crispy Peking Duck",
+        "price": 1200,
+        "restaurant_id": 10
+      },
+      {
+        "id": 34,
+        "food": "Seafood Paella",
+        "price": 850,
+        "restaurant_id": 4
+      },
+      {
+        "id": 35,
+        "food": "Caprese Salad",
+        "price": 450,
+        "restaurant_id": 6
+      },
+      {
+        "id": 36,
+        "food": "Pho Noodle Soup",
+        "price": 650,
+        "restaurant_id": 5
+      },
+      {
+        "id": 37,
+        "food": "Pancakes with Maple Syrup",
+        "price": 450,
+        "restaurant_id": 2
+      },
+      {
+        "id": 38,
+        "food": "Sashimi Platter",
+        "price": 1100,
+        "restaurant_id": 10
+      },
+      {
+        "id": 39,
+        "food": "Shrimp Scampi",
+        "price": 800,
+        "restaurant_id": 7
+      },
+      {
+        "id": 40,
+        "food": "Miso Soup",
+        "price": 300,
+        "restaurant_id": 1
+      },
+      {
+        "id": 41,
+        "food": "Chicken Shawarma",
+        "price": 550,
+        "restaurant_id": 4
+      },
+      {
+        "id": 42,
+        "food": "Margherita Flatbread",
+        "price": 550,
+        "restaurant_id": 6
+      },
+      {
+        "id": 43,
+        "food": "Beef Pho",
+        "price": 700,
+        "restaurant_id": 3
+      },
+      {
+        "id": 44,
+        "food": "Vegan Sushi Roll",
+        "price": 600,
+        "restaurant_id": 9
+      },
+      {
+        "id": 45,
+        "food": "Pulled Pork Sandwich",
+        "price": 650,
+        "restaurant_id": 8
+      },
+      {
+        "id": 46,
+        "food": "Chicken Alfredo",
+        "price": 750,
+        "restaurant_id": 7
+      },
+      {
+        "id": 47,
+        "food": "Vegetable Biryani",
+        "price": 500,
+        "restaurant_id": 5
+      },
+      {
+        "id": 48,
+        "food": "Tiramisu",
+        "price": 400,
+        "restaurant_id": 2
+      },
+      {
+        "id": 49,
+        "food": "Cajun Shrimp Boil",
+        "price": 900,
+        "restaurant_id": 4
+      },
+      {
+        "id": 50,
+        "food": "Greek Salad",
+        "price": 400,
+        "restaurant_id": 6
       }
     ]
-      
+    
   }
+
   
