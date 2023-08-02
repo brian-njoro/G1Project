@@ -80,14 +80,14 @@
       {
         "id": 1,
         "food": "Ugali Matumbo",
-        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcookpad.com%2Fus%2Frecipes%2F3411075-tripe-matumbo-fried-kunde-and-ugali&psig=AOvVaw2y99KW4GCPbZRPT7Hj8BMM&ust=1691071952771000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCNiLoJaUvoADFQAAAAAdAAAAABAI",
+        "image": "https://cookpad.com/us/recipe/images/3c364ecec0a15aaa",
         "price": 456,
         "restaurant_id": 1
       },
       {
         "id": 2,
         "food": "Rice Beef",
-        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2F2sistersrecipes.com%2Fwp-content%2Fuploads%2F2016%2F11%2FDSC_0342-720x405.jpg&tbnid=BvznJAEB7PgNIM&vet=12ahUKEwjAlPvPlL6AAxWunCcCHc38DXIQMygCegUIARD-AQ..i&imgrefurl=https%3A%2F%2F2sistersrecipes.com%2Fbeef-stew-in-half-time-served-with-rice%2F&docid=lGaMr9OUMWX7OM&w=720&h=405&q=rice%20beef%20stew&hl=en&ved=2ahUKEwjAlPvPlL6AAxWunCcCHc38DXIQMygCegUIARD-AQ",
+        "image": "https://2sistersrecipes.com/wp-content/uploads/2018/01/DSC_0342.jpg",
         "price": 500,
         "restaurant_id": 3
       },
