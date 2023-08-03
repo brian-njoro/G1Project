@@ -68,3 +68,86 @@ button[type="submit"]:hover {
   height: 150px;   
   object-fit: cover;
 }
+
+
+.Container {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to a new line */
+  justify-content: flex-start; /* Aligns items left to right */
+}
+.Card-body{
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #cc9a3e56;
+  box-shadow: 8px 0 2px 2px rgb(0, 0, 0);
+  float: left;
+  display:contain;
+  border-radius: 5px;
+  transition: ease-in-out;
+  padding: 10px;
+  
+
+
+}
+.Card-body:hover{
+  filter:scale(1);
+    transform: scale(1.05)
+}
+.card-title{
+  font-size: 16px;
+  padding: 10px;
+  
+  
+}
+h5{
+  margin: 0;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  
+}
+
+
+.cartImage{
+  width: 280px;
+  height: auto; 
+  max-height: 200px;
+  border-radius: 200px;
+  object-fit: cover;
+}
+button{
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+
+.remove {
+  background-color: red;
+}

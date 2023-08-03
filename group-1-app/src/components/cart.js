@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react";
-
+import React, { useState, useEffect } from "react";
 
 function Cart() {
   const [food, setFood] = useState([]);
@@ -20,35 +19,27 @@ function Cart() {
     alert("Item added!");
     setCartItems([...cartItems, item]);
   }
-let Price=0
-
 
   return (
-    <>
+    <div className="Container">
       {food.map((food) => {
-
-  Price= food.price;
-
-  return (
-    <div className="Container" key={food.id}>
-      <div className="Card-body">
-        <img src={food.image} alt={food.food} />
-        <h5 className="card-title">{food.food}</h5>
-        <h5 className="card-title">{food.price}</h5>
-        <button
-          onClick={() => added({ item: food.food, price: food.price })}
-          className="btn"
-          style={{ backgroundColor: "lightblue" }}
-        >
-          Add To Cart
-        </button>
-       
-      </div>
-    </div>
-  )
-})}
-
-
+        return (
+          <div className="Container" key={food.id}>
+            <div className="Card-body">
+              <img src={food.image} alt={food.food} className="cartImage" />
+              <h5 className="card-title">{food.food}</h5>
+              <h5 className="card-title">{food.price}</h5>
+              <button
+                onClick={() => added({ item: food.food, price: food.price })}
+                className="btn"
+                style={{ backgroundColor: "lightblue" }}
+              >
+                Add To Cart
+              </button>
+            </div>
+          </div>
+        );
+      })}
 
       {cartItems.length > 0 && (
         <table>
@@ -65,17 +56,23 @@ let Price=0
               <tr key={index}>
                 <td>{item.item}</td>
                 <td>{item.price}</td>
-                <th>{Price}</th>
+                <td>{item.price}</td> {/* Display the total price for the individual item */}
                 <td>
-                  <button  style={{backgroundColor:"red"}} onClick={() => remove(index)}>Remove</button>
+                  <button
+                    className="btn"
+                    style={{ backgroundColor: "red" }}
+                    onClick={() => remove(index)}
+                  >
+                    Remove
+                  </button>
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
       )}
-    </>
+    </div>
   );
 }
 
-export default Cart
+export default Cart;

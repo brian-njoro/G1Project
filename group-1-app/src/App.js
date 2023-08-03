@@ -1,12 +1,14 @@
-import './App.css'
-import OrderForm from './components/OrderForm'
-import FoodFilter from './components/filter'
+import './App.css';
+import OrderForm from './components/OrderForm';
+import FoodFilter from './components/filter';
+import Cart from './components/cart';
 
 function App() {
   return (
-    <div className="foodOrders">
-      <FoodFilter />
-     <OrderForm />
+    <div>
+      <OrderForm/>
+    <FoodFilter/>
+    <Cart/>
     </div>
   );
 }
