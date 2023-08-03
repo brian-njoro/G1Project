@@ -1,84 +1,83 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react';
 
 export default function OrderForm() {
-  const [foodType, setFoodType] = useState('')
-  const [numberOfPlates, setNumberOfPlates] = useState(1)
-  const [sideDish, setSideDish] = useState('')
-  const [drink, setDrink] = useState('')
+  const [foodType, setFoodType] = useState('');
+  const [numberOfPlates, setNumberOfPlates] = useState(1);
+  const [sideDish, setSideDish] = useState('');
+  const [drink, setDrink] = useState('');
 
-  //function to handle form submission
+  // Function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log({
-        foodType,
-        numberOfPlates,
-        sideDish,
-        drink,
-    })
+      foodType,
+      numberOfPlates,
+      sideDish,
+      drink,
+    });
 
-    //reset form fields after submitting forms
-    setFoodType('')
-    setDrink('')
-    setNumberOfPlates('')
-    setSideDish('')
-  }
+    // Reset form fields after submitting forms
+    setFoodType('');
+    setDrink('');
+    setNumberOfPlates(1);
+    setSideDish('');
+  };
 
-  return(
+  return (
     <div className='foodOrders'>
-        <form onSubmit = {handleSubmit} >
-            {/*foood type input*/}
-           <label>
-            Food Type:
-            <input 
+      <form onSubmit={handleSubmit}>
+        {/* Food type input */}
+        <label>
+          Food Type:
+          <input 
             type="text"
-            value = "foodType"
-            onChange = {(e) => setFoodType(e.target.value)}
+            value={foodType}
+            onChange={(e) => setFoodType(e.target.value)}
             required
-            />
-           </label>
+          />
+        </label>
 
-           <br/>
+        <br />
 
-           {/*number of plates input*/}
-           <label>
-            Number of Plates
-            <input
-            type = "number"
-            value = "numberOfPlates"
-            onChange={(e) => setNumberOfPlates(e.target.value)}
+        {/* Number of plates input */}
+        <label>
+          Number of Plates:
+          <input
+            type="number"
+            value={numberOfPlates}
+            onChange={(e) => setNumberOfPlates(parseInt(e.target.value))}
             min={1}
             required
-            />
-           </label>
+          />
+        </label>
 
-           <br/>
+        <br />
 
-           {/*input for side dish*/}
-           <label>
-            Side Dish:
-            <input
-            type = "text"
-            value = {sideDish}
+        {/* Input for side dish */}
+        <label>
+          Side Dish:
+          <input
+            type="text"
+            value={sideDish}
             onChange={(e) => setSideDish(e.target.value)}
-            />
-           </label>
+          />
+        </label>
 
-           <br/>
+        <br />
 
-           {/* Input for Drink */}
-           <label>
-            Drink:
-            <input
-            type = 'text'
-            value = {drink}
+        {/* Input for Drink */}
+        <label>
+          Drink:
+          <input
+            type='text'
+            value={drink}
             onChange={(e) => setDrink(e.target.value)}
-            />
-           </label>
+          />
+        </label>
 
-           {/*submit form button*/}
-           <button type = "submit">Submit your order here...</button>
-
-        </form>
+        {/* Submit form button */}
+        <button type="submit">Submit your order here...</button>
+      </form>
     </div>
-  )
+  );
 }
