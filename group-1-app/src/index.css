@@ -182,3 +182,54 @@ tbody tr:hover {
   text-align: center;
   color: aqua;
 }
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginForm {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.loginForm h2 {
+  margin-top: 0;
+}
+
+.loginForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm label {
+  margin-bottom: 8px;
+}
+
+.loginForm input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.loginForm button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.loginForm button:hover {
+  background-color: #0056b3;
+}
+
