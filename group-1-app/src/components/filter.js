@@ -8,12 +8,12 @@ export default function FoodFilter() {
     const [searchQuery, setSearchQuery] = useState('');
   
     useEffect(() => {
-      fetch('http://localhost:3000/food')
+      fetch('https://brian-njoro.github.io/project-API/db.json')
         .then(response => response.json())
         .then(data => setFoods(data))
         .catch(error => console.error('Error fetching food data:', error));
   
-      fetch('http://localhost:3000/restaurants')
+      fetch('https://brian-njoro.github.io/project-API/db.json')
         .then(response => response.json())
         .then(data => setRestaurants(data))
         .catch(error => console.error('Error fetching restaurant data:', error));
@@ -28,7 +28,7 @@ export default function FoodFilter() {
     );
   
     return (
-      <div className='filterContainer'> 
+      <div> 
         <input
           type="text"
           placeholder="Search for a food..."
