@@ -4,9 +4,11 @@ import { NavLink } from 'react-router-dom';
 export default function NavBar() {
     return(
         <nav>
-             <NavLink to="/cart">View Cart</NavLink>
-             <NavLink to="/filter">Search</NavLink>
-             <NavLink to="/orderform">Order</NavLink>
+           <ul>
+             <li><NavLink to="/cart">View Cart</NavLink></li>
+             <li><NavLink to="/filter">Search</NavLink></li>
+             <li><NavLink to="/orderform">Order</NavLink></li>
+            </ul>
         </nav>
     )
 }

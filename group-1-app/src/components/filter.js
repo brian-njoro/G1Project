@@ -28,7 +28,7 @@ export default function FoodFilter() {
     );
   
     return (
-      <div>
+      <div className='filterContainer'> 
         <input
           type="text"
           placeholder="Search for a food..."

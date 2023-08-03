@@ -3,77 +3,92 @@
       {
         "id": 1,
         "name": "Delicious Delights",
-        "contact": "info@deliciousdelights.com"
+        "contact": "info@deliciousdelights.com",
+        "logo" : "https://deliciousdelights.com/wp-content/uploads/2021/05/Delicious-Delights-Logo-e1632378844994.png"
       },
       {
         "id": 2,
         "name": "Tasty Treats",
-        "contact": "info@tastytreats.com"
+        "contact": "info@tastytreats.com",
+        "logo": "https://www.slotstemple.com/img/game_tiles/tasty-treats.jpg"
       },
       {
         "id": 3,
         "name": "Crispy Corner",
-        "contact": "info@crispycorner.com"
+        "contact": "info@crispycorner.com",
+        "logo": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/restaurant/cover_square/ee981c17-c979-4bdc-a82f-461718d05ae0.png"
       },
       {
         "id": 4,
         "name": "Sizzling Steaks",
-        "contact": "info@sizzlingsteaks.com"
+        "contact": "info@sizzlingsteaks.com",
+        "logo": "https://contents.smsupermalls.com/data/uploads/2020/07/SHYLAER_SIZZLING_STEAK.jpg"
       },
       {
         "id": 5,
         "name": "Pasta Paradise",
-        "contact": "info@pastaparadise.com"
+        "contact": "info@pastaparadise.com",
+        "logo": "https://media-cdn.tripadvisor.com/media/photo-s/1c/0e/98/5f/n-m-ngay-m-t-ti-n-du.jpg"
       },
       {
         "id": 6,
         "name": "Burger Bites",
-        "contact": "info@burgerbites.com"
+        "contact": "info@burgerbites.com",
+        "logo": "https://i.pinimg.com/originals/91/72/29/91722917dfa697fc84f86256c0986edd.jpg"
       },
       {
         "id": 7,
         "name": "Sushi Senses",
-        "contact": "info@sushisenses.com"
+        "contact": "info@sushisenses.com",
+        "logo": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/60/8b/67/608b6757-ec31-9acb-558c-eb3b08977cc5/source/512x512bb.jpg"
       },
       {
         "id": 8,
         "name": "Vegetarian Vibes",
-        "contact": "info@vegetarianvibes.com"
+        "contact": "info@vegetarianvibes.com",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy5yrQffeAinhHbFPlmheIIdWXhTviVOSSFQ&usqp=CAU"
       },
       {
         "id": 9,
         "name": "Spicy Thai",
-        "contact": "info@spicythai.com"
+        "contact": "info@spicythai.com",
+        "logo": "https://www.shutterstock.com/image-vector/spicy-thai-cuisine-logo-design-260nw-452097862.jpg"
       },
       {
         "id": 10,
         "name": "Mediterranean Delicacies",
-        "contact": "info@mediterraneandelicacies.com"
+        "contact": "info@mediterraneandelicacies.com",
+        "logo": "https://www.shutterstock.com/image-vector/mediterranean-food-logo-illustration-260nw-1356550862.jpg"
       },
       {
         "id": 11,
         "name": "Dessert Dreamland",
-        "contact": "info@dessertdreamland.com"
+        "contact": "info@dessertdreamland.com",
+        "logo": "https://t4.ftcdn.net/jpg/01/29/47/01/360_F_129470188_ikoJs2dvvyQoQNfRt1QgUINKjklpUig3.jpg"
       },
       {
         "id": 12,
         "name": "Coffee Cavern",
-        "contact": "info@coffeecavern.com"
+        "contact": "info@coffeecavern.com",
+        "logo": "https://static.wixstatic.com/media/f2e118_fbc8e9d9094f46b08aa4d310fd075fcf~mv2.png"
       },
       {
         "id": 13,
         "name": "Seafood Sensation",
-        "contact": "info@seafoodsensation.com"
+        "contact": "info@seafoodsensation.com",
+        "logo": "https://images.getbento.com/accounts/69c5e6f7b044b2c93fcad368d1ed477c/media/images/6843logo.png"
       },
       {
         "id": 14,
         "name": "Indian Spice",
-        "contact": "info@indianspice.com"
+        "contact": "info@indianspice.com",
+        "logo": "https://i.pinimg.com/474x/ff/65/5d/ff655d571ce0e641a003332b9bf0d44d.jpg"
       },
       {
         "id": 15,
         "name": "Mexican Fiesta",
-        "contact": "info@mexicanfiesta.com"
+        "contact": "info@mexicanfiesta.com",
+        "logo": "https://w7.pngwing.com/pngs/488/285/png-transparent-mexican-cuisine-san-jacinto-plaza-food-menu-cooking-mexican-fiesta-food-text-logo.png"
       }
     ],
     "food": [

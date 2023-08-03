@@ -67,6 +67,9 @@ button[type="submit"]:hover {
   width: 200px;   
   height: 150px;   
   object-fit: cover;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: flex-start;
 }
 
 
@@ -75,6 +78,7 @@ button[type="submit"]:hover {
   flex-wrap: wrap; /* Allows items to wrap to a new line */
   justify-content: flex-start; /* Aligns items left to right */
 }
+  
 .Card-body{
   width: 300px;
   margin: 10px;
