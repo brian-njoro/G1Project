@@ -1,5 +1,6 @@
 {
-    "restaurants": [
+    "restaurants": 
+    [
       {
         "id": 1,
         "name": "Delicious Delights",
@@ -91,7 +92,8 @@
         "logo": "https://content.wepik.com/statics/25806746/preview-page1.jpg"
       }
     ],
-    "food": [
+    "food": 
+    [
       {
         "id": 1,
         "food": "Ugali Matumbo",
