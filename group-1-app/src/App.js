@@ -5,22 +5,19 @@ import OrderForm from './components/OrderForm';
 import FoodFilter from './components/filter';
 import Cart from './components/cart';
 import NavBar from "./components/navbar";
+import Restaurants from "./components/Restaurants";
 
 function App() {
   return (
     <div>
       <NavBar />
       <Routes>
-          <Route path="/Cart" element={<Cart />}>
         
-          </Route>
-          <Route path="/filter" element={<FoodFilter />}>
-          
-          </Route>
-          <Route path="/orderform" element={<OrderForm />}>
-       
-          </Route>
-        </Routes>
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/filter" element={<FoodFilter />} />
+        <Route path="/orderform" element={<OrderForm />} />
+        <Route path="/restaurants" element={<Restaurants />} />
+      </Routes>
     </div>
   );
 }

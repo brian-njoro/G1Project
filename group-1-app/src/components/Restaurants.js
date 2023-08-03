@@ -1,12 +1,27 @@
 import React, { useState, useEffect } from 'react';
 
-export default function Restaurants() {
-    const [restaurants, setRestaurants] = useState([])
-    
-    useEffect(() => {
-        fetch('http://localhost:3000/restaurants')
-          .then(response => response.json())
-          .then(data => setRestaurants(data.restaurants))
-          .catch(error => console.error('Error fetching data:', error));
-      }, []);
+
+function Restaurants() {
+  const [restaurants, setRestaurants] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/restaurants')
+      .then(response => response.json())
+      .then(data => setRestaurants(data))
+      .catch(error => console.error('Error fetching data:', error));
+  }, []);
+
+  return (
+    <div className="restaurant-list">
+      {restaurants.map(restaurant => (
+        <div key={restaurant.id} className="restaurant-card">
+          <img src={restaurant.logo} alt={restaurant.name} className="restaurant-logo" />
+          <h2 className="restaurant-name">{restaurant.name}</h2>
+          <p className="restaurant-contact">{restaurant.contact}</p>
+        </div>
+      ))}
+    </div>
+  );
 }
+
+export default Restaurants;

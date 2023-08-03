@@ -90,10 +90,22 @@ button[type="submit"]:hover {
   border-radius: 5px;
   transition: ease-in-out;
   padding: 10px;
-  
-
-
 }
+.retsaurant-card{
+  flex: 0 0 calc(33.33% - 20px); 
+  width: 300px;
+  margin: 200px;
+  padding: 10px;
+  background-color: #cc9a3e56;
+  box-shadow: 8px 0 2px 2px rgb(0, 0, 0);
+  float: left;
+  display:contain;
+  border-radius: 5px;
+  transition: ease-in-out;
+  padding: 10px;
+}
+
+
 .Card-body:hover{
   filter:scale(1);
     transform: scale(1.05)
@@ -111,9 +123,19 @@ h5{
   font-weight: 700;
   
 }
-
+.restaurant-list{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .cartImage{
+  width: 280px;
+  height: auto; 
+  max-height: 200px;
+  border-radius: 200px;
+  object-fit: cover;
+}
+.restaurant-logo{
   width: 280px;
   height: auto; 
   max-height: 200px;
