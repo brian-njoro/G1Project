@@ -24,10 +24,10 @@ export default function OrderForm() {
   };
 
   return (
-    <div className='foodOrders'>
-      <form onSubmit={handleSubmit}>
+    <div className='orderFormContainer'>
+      <form className='orderForm' onSubmit={handleSubmit}>
         {/* Food type input */}
-        <label>
+        <label className='formLabel'>
           Food Type:
           <input 
             type="text"
@@ -40,7 +40,7 @@ export default function OrderForm() {
         <br />
 
         {/* Number of plates input */}
-        <label>
+        <label className='formLabel'>
           Number of Plates:
           <input
             type="number"
@@ -54,7 +54,7 @@ export default function OrderForm() {
         <br />
 
         {/* Input for side dish */}
-        <label>
+        <label className='formLabel'>
           Side Dish:
           <input
             type="text"
@@ -66,7 +66,7 @@ export default function OrderForm() {
         <br />
 
         {/* Input for Drink */}
-        <label>
+        <label className='formLabel'>
           Drink:
           <input
             type='text'
@@ -76,7 +76,7 @@ export default function OrderForm() {
         </label>
 
         {/* Submit form button */}
-        <button type="submit">Submit your order here...</button>
+        <button type="submit" className='submitButton'>Submit your order here...</button>
       </form>
     </div>
   );
