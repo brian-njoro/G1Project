@@ -6,13 +6,14 @@ import FoodFilter from './components/filter';
 import Cart from './components/cart';
 import NavBar from "./components/navbar";
 import Restaurants from "./components/Restaurants";
+import Login from "./components/login";
 
 function App() {
   return (
     <div>
       <NavBar />
       <Routes>
-        
+        <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/filter" element={<FoodFilter />} />
         <Route path="/orderform" element={<OrderForm />} />

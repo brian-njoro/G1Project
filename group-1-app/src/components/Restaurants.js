@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-
 function Restaurants() {
   const [restaurants, setRestaurants] = useState([]);
 
@@ -13,6 +12,7 @@ function Restaurants() {
 
   return (
     <div className="restaurant-list">
+        <h1>NextGen Food Court.</h1>
       {restaurants.map(restaurant => (
         <div key={restaurant.id} className="restaurant-card">
           <img src={restaurant.logo} alt={restaurant.name} className="restaurant-logo" />

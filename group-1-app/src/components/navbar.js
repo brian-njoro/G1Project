@@ -5,8 +5,9 @@ export default function NavBar() {
     return(
         <nav>
            <ul>
+             <li><NavLink to="/login">Log in</NavLink></li>
              <li><NavLink to="/restaurants">Restaurants</NavLink></li>
-             <li><NavLink to="/cart">View Cart</NavLink></li>
+             <li><NavLink to="/cart">View Menu</NavLink></li>
              <li><NavLink to="/filter">Search</NavLink></li>
              <li><NavLink to="/orderform">Order</NavLink></li>
             </ul>
