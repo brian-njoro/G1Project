@@ -5,7 +5,7 @@ function Cart() {
   const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {
-    fetch("https://brian-njoro.github.io/project-API/db.json")
+    fetch("https://raw.githubusercontent.com/brian-njoro/project-api/main/db.json")
       .then((response) => response.json())
       .then((data) => setFood(data));
   }, []);
