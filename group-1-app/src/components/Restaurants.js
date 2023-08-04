@@ -4,7 +4,7 @@ function Restaurants() {
   const [restaurants, setRestaurants] = useState([]);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/brian-njoro/project-api/main/db.json')
+    fetch('https://raw.githubusercontent.com/brian-njoro/project-api/main/restaurants.json')
       .then(response => response.json())
       .then(data => setRestaurants(data))
       .catch(error => console.error('Error fetching data:', error));
