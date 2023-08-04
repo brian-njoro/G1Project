@@ -21,26 +21,26 @@ function Cart() {
   }
 
   return (
+  
     <div className="Container">
       {food.map((food) => {
         return (
           <div className="Container" key={food.id}>
-            <div className="Card-body">
-              <img src={food.image} alt={food.food} className="cartImage" />
-              <h5 className="card-title">{food.food}</h5>
-              <h5 className="card-title">{food.price}</h5>
-              <button
-                onClick={() => added({ item: food.food, price: food.price })}
-                className="btn"
-                style={{ backgroundColor: "lightblue" }}
-              >
-                Add To Cart
-              </button>
-            </div>
+          <div className="Card-body">
+            <img src={food.image} alt={food.food} className="cartImage" />
+            <h5 className="card-title">{food.food}</h5>
+            <h5 className="card-title">{food.price}</h5>
+            <button
+              onClick={() => added({ item: food.food, price: food.price })}
+              className="btn"
+              style={{ backgroundColor: "lightblue" }}
+            >
+              Add To Cart
+            </button>
           </div>
-        );
-      })}
-
+        </div>
+      );
+    })}
       {cartItems.length > 0 && (
         <table>
           <thead>

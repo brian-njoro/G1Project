@@ -11,6 +11,10 @@ function Restaurants() {
   }, []);
 
   return (
+    <>
+    <div>
+      <h1> Available Restaurants</h1>
+    </div>
     <div className="restaurant-list">
       {restaurants.map(restaurant => (
         <div key={restaurant.id} className="restaurant-card">
@@ -20,7 +24,8 @@ function Restaurants() {
         </div>
       ))}
     </div>
-  );
+    </>
+  )
 }
 
 export default Restaurants;
